@@ -1,0 +1,19 @@
+[project]
+name = "token-counter"
+authors = [
+    {name = "dinedal"}
+]
+version = "0.1.0"
+description = "Count tokens in text using model's tokenizer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "transformers>=4.48.3",
+]
+
+[project.scripts]
+token-counter = "token_counter.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
