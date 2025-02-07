@@ -7,7 +7,8 @@ Useful for checking if your input will fit in your context window.
 ## Installation
 
 ```bash
-pip install token-counter
+git clone https://github.com/dinedal/token_counter.git && cd .
+pip install .
 ```
 
 ## Usage
