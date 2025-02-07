@@ -2,7 +2,7 @@
 
 A simple Python CLI tool for counting tokens in text using model tokenizers from Hugging Face transformers.
 
-Useful for checking if your input will fix in your context window.
+Useful for checking if your input will fit in your context window.
 
 ## Installation
 
